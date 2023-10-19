@@ -10,6 +10,8 @@ body {
 
 /* nav */
 .nav {
+    display: flex;
+    justify-content: center;
     height: 50px;
     background-color: #333;
     text-align: center;
@@ -21,7 +23,7 @@ body {
 }
 
 .nav-item a {
-    color: #fff;
+    color: grey;
     padding: 0 50px;
     text-decoration: none;
     text-transform: uppercase;
@@ -38,12 +40,26 @@ body {
 .header-img {
     position: relative;
     height: 300px;
-    background-image: url("../img/2.jpg");
+    background: radial-gradient(
+        circle at 10% 20%,
+        rgb(4, 159, 108) 0%,
+        rgb(194, 254, 113) 90.1%
+    );
+    /*background-image: url("../img/logo.png");*/
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    z-index: 1;
 }
 
-.header-text {
+.header-bg {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -0%);
+    height: 225px;
+    width: 225px;
+    content: url("../img/logo.png");
+}
+​ .header-text {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -57,10 +73,9 @@ body {
     letter-spacing: 2px;
 }
 
-
 /* main */
 main {
-    width: 1200px;
+    width: 100%;
     margin: 50px auto;
 }
 
@@ -73,7 +88,11 @@ main h2 {
 .about-us-box {
     position: relative;
     height: 300px;
+    width: 800px;
     margin: 40px 0;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -0%);
     background-attachment: fixed;
     background-position: center;
     border-top-left-radius: 50px;
@@ -82,7 +101,7 @@ main h2 {
 }
 
 .top {
-    background-image: url("./img/coffee.png");
+    background-image: url("./img/2.jpg");
 }
 
 .middle {
@@ -90,12 +109,12 @@ main h2 {
 }
 
 .bottom {
-    background-image: url("./img/office.png");
+    background-image: url("./img/2.jpg");
 }
 
 .about-us-text {
     position: absolute;
-    bottom: 20px;
+    bottom: 0px;
     padding: 20px 40px;
     text-align: center;
     color: #fff;
