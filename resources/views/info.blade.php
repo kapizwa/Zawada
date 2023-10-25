@@ -1,6 +1,6 @@
 @extends('layouts.app')
-
 @section('content')
+
 <!DOCTYPE html>
 <html lang="pl">
 <head>
@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap" rel="stylesheet" />
     <style>
-        <?php include('../resources/css/home.css'); ?>
+        <?php include('../resources/css/info.css'); ?>
     </style>
     <script src="https://kit.fontawesome.com/e8dac3ad42.js" crossorigin="anonymous"></script>
 </head>
@@ -32,38 +32,23 @@
         </ul>
     </nav>
     <main>
-			<h2>Aktualności</h2>
-
-			<div class="about-us-box top">
-				<div class="about-us-bg"></div>
-				<div class="about-us-text">
-					<h3>Remis z Barciczanką</h3>
-					<p>
-						Zespół Zawady zremisował w niedzielę bezbramkowo spotkanie z drużyną Bariczanka II Barcice.
-					</p>
-				</div>
-			</div>
-
-			<div class="about-us-box middle">
-				<div class="about-us-bg"></div>
-				<div class="about-us-text">
-					<h3>Spotkanie z Barciczanką</h3>
-					<p>
-						W dniu 14.10 o godzinie 16:00 odbędzie się mecz z Barciczanką II Barcice.
-					</p>
-				</div>
-			</div>
-
-			<div class="about-us-box bottom">
-				<div class="about-us-bg"></div>
-				<div class="about-us-text">
-					<h3>Porażka z Dąbrovią</h3>
-					<p>
-						Zespół Zawady przegrał na wyjeździe z drużyną Dąbrovii Wielogłowy 2:3.
-					</p>
-				</div>
-			</div>
-		</main>
+        <div class="main-box">
+            <div class="main-logo">
+            <div class="main-img"></div>
+        </div>
+        <div class="main-info">
+        <p><b>Rok założenia</b>: 1946</p>
+        <p><b>Barwy</b>: biało-zielone</p>
+        <p><b>Adres</b>: Sportowa 12, 33-300 Nowy Sącz</p>
+        <p><b>E-mail</b>: zawadanowysacz@gmail.com</p>
+        <p><b>Stadion</b>: pojemność - 1 000 miejsc / oświetlenie - tak / boisko - 110 m x 74 m</p>
+        <p><b>Prezes</b>: Kamil Wójs</p>
+        <p><b>Trener</b>: Piotr Pietruch</p>
+        </div>
+            </div>
+        </div>
+        <div class="main-maps"></div>
+	</main>
     <footer>
         <p>
             &copy; 2023 LKS Zawada Nowy Sącz

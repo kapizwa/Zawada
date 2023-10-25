@@ -24,11 +24,11 @@
     </header>
     <nav class="nav">
         <ul>
-            <li class="nav-item"><a href="home.html">home</a></li>
-            <li class="nav-item"><a href="zespol.html">zespół</a></li>
-            <li class="nav-item"><a href="tabela.html">tabela</a></li>
-			<li class="nav-item"><a href="terminarz.html">terminarz</a></li>
-			<li class="nav-item"><a href="informacje.html">info</a></li>
+			<li class="nav-item"><a href="{{ route('home') }}">home</a></li>
+            <li class="nav-item"><a href="{{ route('team') }}">zespol</a></li>
+            <li class="nav-item"><a href="{{ route('table') }}">tabela</a></li>
+			<li class="nav-item"><a href="{{ route('schedule') }}">terminarz</a></li>
+			<li class="nav-item"><a href="{{ route('info') }}">info</a></li>
         </ul>
     </nav>
     <main>
@@ -37,11 +37,9 @@
 			<div class="about-us-box top">
 				<div class="about-us-bg"></div>
 				<div class="about-us-text">
-					<h3>POST</h3>
+					<h3>Remis z Barciczanką</h3>
 					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
-						veniam qui. In quis, ratione sint laboriosam quaerat minus quidem
-						doloremque!
+						Zespół Zawady zremisował w niedzielę bezbramkowo spotkanie z drużyną Bariczanka II Barcice.
 					</p>
 				</div>
 			</div>
@@ -49,11 +47,9 @@
 			<div class="about-us-box middle">
 				<div class="about-us-bg"></div>
 				<div class="about-us-text">
-					<h3>POST</h3>
+					<h3>Spotkanie z Barciczanką</h3>
 					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
-						veniam qui. In quis, ratione sint laboriosam quaerat minus quidem
-						doloremque!
+						W dniu 14.10 o godzinie 16:00 odbędzie się mecz z Barciczanką II Barcice.
 					</p>
 				</div>
 			</div>
@@ -61,11 +57,9 @@
 			<div class="about-us-box bottom">
 				<div class="about-us-bg"></div>
 				<div class="about-us-text">
-					<h3>POST</h3>
+					<h3>Porażka z Dąbrovią</h3>
 					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
-						veniam qui. In quis, ratione sint laboriosam quaerat minus quidem
-						doloremque!
+						Zespół Zawady przegrał na wyjeździe z drużyną Dąbrovii Wielogłowy 2:3.
 					</p>
 				</div>
 			</div>
@@ -74,8 +68,8 @@
         <p>
             &copy; 2023 LKS Zawada Nowy Sącz
             <span class="icon-box">
-                <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100063552835307"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="https://www.instagram.com/lks_zawada/"><i class="fa-brands fa-square-instagram"></i></a>
             </span>
         </p>
     </footer>

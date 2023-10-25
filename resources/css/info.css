@@ -85,54 +85,36 @@ main h2 {
     text-align: center;
 }
 
-.about-us-box {
+.main-box {
+    display: flex;
     position: relative;
-    height: 300px;
+    height: 1200px;
     width: 800px;
-    margin: 40px 0;
+    margin: 70px 0;
     left: 50%;
     transform: translate(-50%);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-top-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    overflow: hidden;
+    border: black 2px solid;
 }
 
-.top {
-    background-image: url("./img/barciczanka3.jpg");
+.main-logo {
+    width: 250px;
+    height: 250px;
 }
 
-.middle {
-    background-image: url("./img/barciczanka2.jpg");
+.main-img {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    top: 20px;
+    content: url("../img/logo.png");
 }
 
-.bottom {
-    background-image: url("./img/dabrovia.jpg");
-}
-
-.about-us-text {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    bottom: 0px;
-    padding: 20px 20px;
-    text-align: center;
-    color: #fff;
-}
-
-.about-us-text h3 {
-    margin-bottom: 10px;
-    text-transform: uppercase;
-}
-
-.about-us-bg {
-    position: absolute;
-    bottom: 0;
-    height: 45%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
+.main-info {
+    position: relative;
+    height: 250px;
+    width: 550px;
+    font-size: 15px;
+    line-height: 22px;
 }
 
 /* footer */

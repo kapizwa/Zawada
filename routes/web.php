@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\UserController;
 
+
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -24,3 +25,7 @@ Route::get("users/list", [UserController::class, "index"])->middleware('auth');
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/team', [App\Http\Controllers\TeamController::class, 'index'])->name('team');
+Route::get('/table', [App\Http\Controllers\TableController::class, 'index'])->name('table');
+Route::get('/schedule', [App\Http\Controllers\ScheduleController::class, 'index'])->name('schedule');
+Route::get('/info', [App\Http\Controllers\InfoController::class, 'index'])->name('info');
