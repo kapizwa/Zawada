@@ -32,22 +32,27 @@
         </ul>
     </nav>
     <main>
-        <div class="main-box">
-            <div class="main-logo">
-            <div class="main-img"></div>
+        <div class="main-container">
+            <div class="main-box">
+             <div class="main-first">
+
+                <div class="main-logo">
+                    <div class="main-img"></div>
+                 </div>
+
+                <div class="main-info">
+                        <p><b>Rok założenia</b>: 1946</p>
+                        <p><b>Barwy</b>: biało-zielone</p>
+                        <p><b>Adres</b>: Sportowa 12, 33-300 Nowy Sącz</p>
+                        <p><b>E-mail</b>: zawadanowysacz@gmail.com</p>
+                        <p><b>Stadion</b>: pojemność - 1 000 miejsc / oświetlenie - tak / boisko - 110 m x 74 m</p>
+                        <p><b>Prezes</b>: Kamil Wójs</p>
+                        <p><b>Trener</b>: Piotr Pietruch</p>
+                </div>
+
+             </div>
+          </div>
         </div>
-        <div class="main-info">
-        <p><b>Rok założenia</b>: 1946</p>
-        <p><b>Barwy</b>: biało-zielone</p>
-        <p><b>Adres</b>: Sportowa 12, 33-300 Nowy Sącz</p>
-        <p><b>E-mail</b>: zawadanowysacz@gmail.com</p>
-        <p><b>Stadion</b>: pojemność - 1 000 miejsc / oświetlenie - tak / boisko - 110 m x 74 m</p>
-        <p><b>Prezes</b>: Kamil Wójs</p>
-        <p><b>Trener</b>: Piotr Pietruch</p>
-        </div>
-            </div>
-        </div>
-        <div class="main-maps"></div>
 	</main>
     <footer>
         <p>
