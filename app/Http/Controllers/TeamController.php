@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Team;
 use Illuminate\Http\Request;
 
 class TeamController extends Controller
@@ -11,23 +12,30 @@ class TeamController extends Controller
      */
     public function index()
     {
-        return view('team');
+        return view("teams.index", [
+            "teams" => Team::all()
+        ]);
     }
+
 
     /**
      * Show the form for creating a new resource.
      */
     public function create()
     {
-        //
+        return view("teams.create");
     }
 
     /**
      * Store a newly created resource in storage.
+     * 
      */
+
     public function store(Request $request)
     {
-        //
+        $team = new Team($request->all());
+        $team->save();
+        return redirect(route('teams.index'));
     }
 
     /**
@@ -41,25 +49,34 @@ class TeamController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(string $id)
+    public function edit(Team $team)
     {
-        //
+        return view('teams.edit', [
+            'team' => $team
+        ]);
+
     }
 
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, string $id)
+    public function update(Request $request, Team $team)
     {
-        //
+        $team->fill($request->all());
+        $team->save();
+        return redirect(route('teams.index'));
     }
 
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(string $id)
+    public function destroy($id)
     {
-        //
+        $flight = Team::find($id);
+        $flight->delete();
+        return response()->json([
+            'status' => 'success'
+        ]);
     }
 
 }

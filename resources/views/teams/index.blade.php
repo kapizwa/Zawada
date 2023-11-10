@@ -33,6 +33,51 @@
     </nav>
     <main>
 
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+            <h1>Lista zawodników</h1>
+            </div>
+            <div class="col-6">
+    <a href="{{ route('teams.create') }}">
+        <button type="button" class="btn btn-primary add">Dodaj</button>
+    </a>
+            </div>
+</div>
+<table class="table">
+  <thead>
+    <tr>
+    <th scope="col">#</th>
+      <th scope="col">Imie</th>
+      <th scope="col">Nazwisko</th>
+      <th scope="col">Data urodzenia</th>
+      <th scope="col">Wzrost</th>
+      <th scope="col">Numer</th>
+      <th scope="col">Pozycja</th>
+      <th scope="col">Akcje</th>
+    </tr>
+  </thead>
+  <tbody>
+    @foreach($teams as $team)
+    <tr>
+      <th scope="row">{{ $team->id }}</th>
+      <td>{{ $team->name }}</td>
+      <td>{{ $team->surname }}</td>
+      <td>{{ $team->birth }}</td>
+      <td>{{ $team->growth }}</td>
+      <td>{{ $team->number }}</td>
+      <td>{{ $team->position }}</td>
+      <td>
+        <button class="btn btn-danger btn-sm delete" data-id="{{ $team->id }}">Usuń</button>
+        <a href="{{route('teams.edit', $team->id) }}">
+            <button class="btn btn-success btn-sm">Edytuj</button>
+        </a>
+      </td>
+    </tr>
+    @endforeach
+  </tbody>
+</table>
+</div>
 		</main>
     <footer>
         <p>
@@ -45,4 +90,21 @@
     </footer>
 </body>
 </html>
+@endsection
+
+@section('javascript')
+$(function() {
+    $('.delete').click(function(){
+        $.ajax({
+            method: "DELETE",
+            url: "http://127.0.0.1:8000/teams/" + $(this).data("id")
+        })
+        .done(function(response) {
+            alert("SUCCESS");
+        })
+        .fail(function (response){
+            alert("ERROR");
+        });
+    });
+});
 @endsection
