@@ -78,6 +78,178 @@
   </tbody>
 </table>
 </div>
+
+<div class="players">
+    <div class="goalkeepers">
+        <div class="goalkeepers-name">
+            <h1>Bramkarze</h1>
+        </div>
+        <div class="goalkeepers-show">
+            <div class="card">
+                <div class="img one"></div>
+                <div class="text text-one">
+                    <h3>Daniel Dziubanowski</h3>
+                    <p>Data urodzenia: 1991-03-05</p>
+                    <p>Numer: 91</p>
+                    <p>Wzrost: 180cm</p>
+                </div>
+            </div>
+
+            <div class="card">
+			<div class="img two"></div>
+			<div class="text text-two">
+				<h3>Jarosław Leśniak</h3>
+				    <p>Data urodzenia: 1998-04-10</p>
+                    <p>Numer: 1</p>
+                    <p>Wzrost: 175cm</p>
+			</div>
+		</div>
+        </div>
+    </div>
+    <div class="defenders">
+        <div class="defenders-name">
+            <h1>Obrońcy</h1>
+        </div>
+        <div class="defenders-show">
+            <div class="card">
+			    <div class="img three"></div>
+			    <div class="text text-three">
+				    <h3>Jacek Śmierciak</h3>
+				        <p>Data urodzenia: 1987-01-23</p>
+                        <p>Numer: 77</p>
+                        <p>Wzrost: 187cm</p>
+			    </div>
+		        </div>
+
+                <div class="card">
+			<div class="img four"></div>
+			<div class="text text-four">
+				<h3>Jacek Śmierciak</h3>
+				    <p>Data urodzenia: 1987-01-23</p>
+                    <p>Numer: 77</p>
+                    <p>Wzrost: 187cm</p>
+			</div>
+		</div>
+
+        <div class="card">
+			<div class="img five"></div>
+			<div class="text text-five">
+				<h3>Jacek Śmierciak</h3>
+				    <p>Data urodzenia: 1987-01-23</p>
+                    <p>Numer: 77</p>
+                    <p>Wzrost: 187cm</p>
+			</div>
+		</div>
+
+        <div class="card">
+			<div class="img six"></div>
+			<div class="text text-six">
+				<h3>Jacek Śmierciak</h3>
+				    <p>Data urodzenia: 1987-01-23</p>
+                    <p>Numer: 77</p>
+                    <p>Wzrost: 187cm</p>
+			</div>
+		</div>
+        </div>
+        </div>     
+    </div>
+    <div class="midfielders">
+        <div class="midfielders-name">
+            <h1>Pomocnicy</h1>
+        </div>
+        <div class="midfielders-show">
+        <div class="card">
+			    <div class="img three"></div>
+			    <div class="text text-three">
+				    <h3>Jacek Śmierciak</h3>
+				        <p>Data urodzenia: 1987-01-23</p>
+                        <p>Numer: 77</p>
+                        <p>Wzrost: 187cm</p>
+			    </div>
+		        </div>
+
+                <div class="card">
+			<div class="img four"></div>
+			<div class="text text-four">
+				<h3>Jacek Śmierciak</h3>
+				    <p>Data urodzenia: 1987-01-23</p>
+                    <p>Numer: 77</p>
+                    <p>Wzrost: 187cm</p>
+			</div>
+		</div>
+
+        <div class="card">
+			<div class="img five"></div>
+			<div class="text text-five">
+				<h3>Jacek Śmierciak</h3>
+				    <p>Data urodzenia: 1987-01-23</p>
+                    <p>Numer: 77</p>
+                    <p>Wzrost: 187cm</p>
+			</div>
+		</div>
+
+        <div class="card">
+			<div class="img six"></div>
+			<div class="text text-six">
+				<h3>Jacek Śmierciak</h3>
+				    <p>Data urodzenia: 1987-01-23</p>
+                    <p>Numer: 77</p>
+                    <p>Wzrost: 187cm</p>
+			</div>
+		</div>
+        </div>
+        </div>     
+        </div>
+    </div>
+    <div class="strikers">
+        <div class="strikers-name">
+            <h1>Napastnicy</h1>
+        </div>
+        <div class="strikers-show">
+        <div class="card">
+			    <div class="img three"></div>
+			    <div class="text text-three">
+				    <h3>Jacek Śmierciak</h3>
+				        <p>Data urodzenia: 1987-01-23</p>
+                        <p>Numer: 77</p>
+                        <p>Wzrost: 187cm</p>
+			    </div>
+		        </div>
+
+                <div class="card">
+			<div class="img four"></div>
+			<div class="text text-four">
+				<h3>Jacek Śmierciak</h3>
+				    <p>Data urodzenia: 1987-01-23</p>
+                    <p>Numer: 77</p>
+                    <p>Wzrost: 187cm</p>
+			</div>
+		</div>
+
+        <div class="card">
+			<div class="img five"></div>
+			<div class="text text-five">
+				<h3>Jacek Śmierciak</h3>
+				    <p>Data urodzenia: 1987-01-23</p>
+                    <p>Numer: 77</p>
+                    <p>Wzrost: 187cm</p>
+			</div>
+		</div>
+
+        <div class="card">
+			<div class="img six"></div>
+			<div class="text text-six">
+				<h3>Jacek Śmierciak</h3>
+				    <p>Data urodzenia: 1987-01-23</p>
+                    <p>Numer: 77</p>
+                    <p>Wzrost: 187cm</p>
+			</div>
+		</div>
+        </div>
+        </div>     
+        </div>
+    </div>
+</div>
 		</main>
     <footer>
         <p>

@@ -74,7 +74,6 @@ main h2 {
 .main-container {
     display: flex;
     justify-content: center;
-    height: 1200px;
 }
 
  .main-box{
