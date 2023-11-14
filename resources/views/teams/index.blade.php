@@ -86,8 +86,8 @@
         </div>
         <div class="goalkeepers-show">
             <div class="card">
-                <div class="img one"></div>
-                <div class="text text-one">
+                <div class="img dziubanowski"></div>
+                <div class="text">
                     <h3>Daniel Dziubanowski</h3>
                     <p>Data urodzenia: 1991-03-05</p>
                     <p>Numer: 91</p>
@@ -96,34 +96,45 @@
             </div>
 
             <div class="card">
-			<div class="img two"></div>
-			<div class="text text-two">
+			<div class="img lesniakj"></div>
+			<div class="text">
 				<h3>Jarosław Leśniak</h3>
 				    <p>Data urodzenia: 1998-04-10</p>
                     <p>Numer: 1</p>
                     <p>Wzrost: 175cm</p>
 			</div>
 		</div>
+
+        <div class="card">
+                <div class="img kowalik"></div>
+                <div class="text">
+                    <h3>Jakub Kowalik</h3>
+                    <p>Data urodzenia: 2000-09-20</p>
+                    <p>Numer: 39</p>
+                    <p>Wzrost: 178cm</p>
+                </div>
+            </div>
         </div>
     </div>
+
     <div class="defenders">
         <div class="defenders-name">
             <h1>Obrońcy</h1>
         </div>
         <div class="defenders-show">
             <div class="card">
-			    <div class="img three"></div>
-			    <div class="text text-three">
-				    <h3>Jacek Śmierciak</h3>
-				        <p>Data urodzenia: 1987-01-23</p>
-                        <p>Numer: 77</p>
-                        <p>Wzrost: 187cm</p>
+			    <div class="img jablonski"></div>
+			    <div class="text">
+				    <h3>Jarosław Jabłoński</h3>
+				        <p>Data urodzenia: 1986-12-07</p>
+                        <p>Numer: 86</p>
+                        <p>Wzrost: 184cm</p>
 			    </div>
 		        </div>
 
                 <div class="card">
-			<div class="img four"></div>
-			<div class="text text-four">
+			<div class="img smierciak"></div>
+			<div class="text">
 				<h3>Jacek Śmierciak</h3>
 				    <p>Data urodzenia: 1987-01-23</p>
                     <p>Numer: 77</p>
@@ -132,8 +143,18 @@
 		</div>
 
         <div class="card">
-			<div class="img five"></div>
+			<div class="img korzystka"></div>
 			<div class="text text-five">
+				<h3>Marcin Korzystka</h3>
+				    <p>Data urodzenia: 1984-07-09</p>
+                    <p>Numer: 84</p>
+                    <p>Wzrost: 184cm</p>
+			</div>
+		</div>
+
+        <div class="card">
+			<div class="img pogwizd"></div>
+			<div class="text">
 				<h3>Jacek Śmierciak</h3>
 				    <p>Data urodzenia: 1987-01-23</p>
                     <p>Numer: 77</p>
@@ -142,14 +163,26 @@
 		</div>
 
         <div class="card">
-			<div class="img six"></div>
-			<div class="text text-six">
-				<h3>Jacek Śmierciak</h3>
-				    <p>Data urodzenia: 1987-01-23</p>
-                    <p>Numer: 77</p>
-                    <p>Wzrost: 187cm</p>
+			<div class="img lesniaks"></div>
+			<div class="text">
+				<h3>Sławomir Leśniak</h3>
+				    <p>Data urodzenia: 2000-11-21</p>
+                    <p>Numer: 3</p>
+                    <p>Wzrost: 177cm</p>
 			</div>
 		</div>
+
+        <div class="card">
+			<div class="img gagor"></div>
+			<div class="text">
+				<h3>Jakub Gągor</h3>
+				    <p>Data urodzenia: 2006-01-16</p>
+                    <p>Numer: 20</p>
+                    <p>Wzrost: 183cm</p>
+			</div>
+		</div>
+
+
         </div>
         </div>     
     </div>
@@ -159,42 +192,132 @@
         </div>
         <div class="midfielders-show">
         <div class="card">
-			    <div class="img three"></div>
-			    <div class="text text-three">
-				    <h3>Jacek Śmierciak</h3>
-				        <p>Data urodzenia: 1987-01-23</p>
-                        <p>Numer: 77</p>
-                        <p>Wzrost: 187cm</p>
+			    <div class="img borkowski"></div>
+			    <div class="text">
+				    <h3>Rafał Borkowski</h3>
+				        <p>Data urodzenia: 1996-06-11</p>
+                        <p>Numer: 96</p>
+                        <p>Wzrost: 181cm</p>
 			    </div>
 		        </div>
 
                 <div class="card">
-			<div class="img four"></div>
-			<div class="text text-four">
-				<h3>Jacek Śmierciak</h3>
-				    <p>Data urodzenia: 1987-01-23</p>
-                    <p>Numer: 77</p>
-                    <p>Wzrost: 187cm</p>
+			    <div class="img widel"></div>
+			    <div class="text">
+				    <h3>Dawid Wideł</h3>
+				        <p>Data urodzenia: 1999-06-01</p>
+                        <p>Numer: 9</p>
+                        <p>Wzrost: 182cm</p>
+			    </div>
+		        </div>
+
+                <div class="card">
+			    <div class="img ruchala"></div>
+			    <div class="text">
+				    <h3>Stanisław Ruchała</h3>
+				        <p>Data urodzenia: 1963-01-13</p>
+                        <p>Numer: 18</p>
+                        <p>Wzrost: 176cm</p>
+			    </div>
+		        </div>
+
+                <div class="card">
+			    <div class="img kadamiec"></div>
+			    <div class="text">
+				    <h3>Kacper Adamiec</h3>
+				        <p>Data urodzenia: 2005-08-30</p>
+                        <p>Numer: 11</p>
+                        <p>Wzrost: 179cm</p>
+			    </div>
+		        </div>
+
+                <div class="card">
+			    <div class="img gorka"></div>
+			    <div class="text">
+				    <h3>Kacper Górka</h3>
+				        <p>Data urodzenia: 1999-07-11</p>
+                        <p>Numer: 8</p>
+                        <p>Wzrost: 182cm</p>
+			    </div>
+		        </div>
+
+                <div class="card">
+			    <div class="img ladamiec"></div>
+			    <div class="text">
+				    <h3>Łukasz Adamiec</h3>
+				        <p>Data urodzenia:  2005-05-30</p>
+                        <p>Numer: 52</p>
+                        <p>Wzrost: 180cm</p>
+			    </div>
+		        </div>
+
+                <div class="card">
+			    <div class="img dutka"></div>
+			    <div class="text">
+				    <h3>Tomasz Dutka</h3>
+				        <p>Data urodzenia: 1997-03-08</p>
+                        <p>Numer: 27</p>
+                        <p>Wzrost: 182cm</p>
+			    </div>
+		        </div>
+
+                <div class="card">
+			    <div class="img djablonski"></div>
+			    <div class="text">
+				    <h3>Dominik Jabłoński</h3>
+				        <p>Data urodzenia: 2007-07-07</p>
+                        <p>Numer: 15</p>
+                        <p>Wzrost: 177cm</p>
+			    </div>
+		        </div>
+
+                <div class="card">
+			    <div class="img kopec"></div>
+			    <div class="text">
+				    <h3>Daniel Kopeć</h3>
+				        <p>Data urodzenia: 1997-09-24</p>
+                        <p>Numer: 6</p>
+                        <p>Wzrost: 180cm</p>
+			    </div>
+		        </div>
+
+                <div class="card">
+			<div class="img lesniakjan"></div>
+			<div class="text">
+				<h3>Jan Leśniak</h3>
+				    <p>Data urodzenia: 1999-09-03</p>
+                    <p>Numer: 23</p>
+                    <p>Wzrost: 185cm</p>
 			</div>
 		</div>
 
         <div class="card">
-			<div class="img five"></div>
-			<div class="text text-five">
-				<h3>Jacek Śmierciak</h3>
-				    <p>Data urodzenia: 1987-01-23</p>
-                    <p>Numer: 77</p>
-                    <p>Wzrost: 187cm</p>
+			<div class="img ogorek"></div>
+			<div class="text">
+				<h3>Oliwier Ogórek</h3>
+				    <p>Data urodzenia: 2006-11-07</p>
+                    <p>Numer: 15</p>
+                    <p>Wzrost: 178cm</p>
 			</div>
 		</div>
 
         <div class="card">
-			<div class="img six"></div>
-			<div class="text text-six">
-				<h3>Jacek Śmierciak</h3>
-				    <p>Data urodzenia: 1987-01-23</p>
-                    <p>Numer: 77</p>
-                    <p>Wzrost: 187cm</p>
+			<div class="img oleksy"></div>
+			<div class="text">
+				<h3>Dominik Oleksy</h3>
+				    <p>Data urodzenia: 1993-11-22</p>
+                    <p>Numer: 79</p>
+                    <p>Wzrost: 177cm</p>
+			</div>
+		</div>
+
+        <div class="card">
+			<div class="img waniolek"></div>
+			<div class="text">
+				<h3>Igor Waniołek</h3>
+				    <p>Data urodzenia: 2005-10-28</p>
+                    <p>Numer: 14</p>
+                    <p>Wzrost: 177cm</p>
 			</div>
 		</div>
         </div>
@@ -207,42 +330,52 @@
         </div>
         <div class="strikers-show">
         <div class="card">
-			    <div class="img three"></div>
-			    <div class="text text-three">
-				    <h3>Jacek Śmierciak</h3>
-				        <p>Data urodzenia: 1987-01-23</p>
-                        <p>Numer: 77</p>
-                        <p>Wzrost: 187cm</p>
+			    <div class="img aleksander"></div>
+			    <div class="text">
+				    <h3>Bartosz Aleksander</h3>
+				        <p>Data urodzenia: 2002-12-05</p>
+                        <p>Numer: 23</p>
+                        <p>Wzrost: 177cm</p>
 			    </div>
 		        </div>
 
                 <div class="card">
-			<div class="img four"></div>
-			<div class="text text-four">
-				<h3>Jacek Śmierciak</h3>
-				    <p>Data urodzenia: 1987-01-23</p>
-                    <p>Numer: 77</p>
-                    <p>Wzrost: 187cm</p>
+			    <div class="img baczynski"></div>
+			    <div class="text">
+				    <h3>Tomasz Baczyński</h3>
+				        <p>Data urodzenia: 1988-11-18</p>
+                        <p>Numer: 88</p>
+                        <p>Wzrost: 181cm</p>
+			    </div>
+		        </div>
+
+                <div class="card">
+			<div class="img wojtowicz"></div>
+			<div class="text">
+				<h3>Kacper Wójtowicz</h3>
+				    <p>Data urodzenia: 1997-01-25</p>
+                    <p>Numer: 97</p>
+                    <p>Wzrost: 179cm</p>
 			</div>
 		</div>
 
         <div class="card">
-			<div class="img five"></div>
-			<div class="text text-five">
-				<h3>Jacek Śmierciak</h3>
-				    <p>Data urodzenia: 1987-01-23</p>
-                    <p>Numer: 77</p>
-                    <p>Wzrost: 187cm</p>
+			<div class="img wielowski"></div>
+			<div class="text">
+				<h3>Łukasz Wielowski</h3>
+				    <p>Data urodzenia: 1994-07-27</p>
+                    <p>Numer: 73</p>
+                    <p>Wzrost: 179cm</p>
 			</div>
 		</div>
 
         <div class="card">
-			<div class="img six"></div>
-			<div class="text text-six">
-				<h3>Jacek Śmierciak</h3>
-				    <p>Data urodzenia: 1987-01-23</p>
-                    <p>Numer: 77</p>
-                    <p>Wzrost: 187cm</p>
+			<div class="img sendecki"></div>
+			<div class="text">
+				<h3>Jakub Sendecki</h3>
+				    <p>Data urodzenia: 2002-05-03</p>
+                    <p>Numer: 7</p>
+                    <p>Wzrost: 176cm</p>
 			</div>
 		</div>
         </div>
