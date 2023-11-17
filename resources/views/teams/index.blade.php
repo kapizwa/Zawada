@@ -191,6 +191,7 @@
             <h1>Pomocnicy</h1>
         </div>
         <div class="midfielders-show">
+            <div class="page1">
         <div class="card">
 			    <div class="img borkowski"></div>
 			    <div class="text">
@@ -250,7 +251,8 @@
                         <p>Wzrost: 180cm</p>
 			    </div>
 		        </div>
-
+</div>
+<div class="page2">
                 <div class="card">
 			    <div class="img dutka"></div>
 			    <div class="text">
@@ -268,16 +270,6 @@
 				        <p>Data urodzenia: 2007-07-07</p>
                         <p>Numer: 15</p>
                         <p>Wzrost: 177cm</p>
-			    </div>
-		        </div>
-
-                <div class="card">
-			    <div class="img kopec"></div>
-			    <div class="text">
-				    <h3>Daniel Kopeć</h3>
-				        <p>Data urodzenia: 1997-09-24</p>
-                        <p>Numer: 6</p>
-                        <p>Wzrost: 180cm</p>
 			    </div>
 		        </div>
 
@@ -320,6 +312,7 @@
                     <p>Wzrost: 177cm</p>
 			</div>
 		</div>
+</div>
         </div>
         </div>     
         </div>
@@ -392,7 +385,8 @@
                 <a href="https://www.instagram.com/lks_zawada/"><i class="fa-brands fa-square-instagram"></i></a>
             </span>
         </p>
-    </footer>
+</footer>
+
 </body>
 </html>
 @endsection
@@ -412,4 +406,6 @@ $(function() {
         });
     });
 });
+
+
 @endsection

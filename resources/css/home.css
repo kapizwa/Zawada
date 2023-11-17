@@ -80,6 +80,7 @@ main {
 
 main h2 {
     margin-bottom: 30px;
+    margin-top: 20px;
     text-transform: uppercase;
     text-align: center;
 }
@@ -99,17 +100,87 @@ main h2 {
     overflow: hidden;
 }
 
-.top {
-    background-image: url("./img/barciczanka3.jpg");
+.second, .fourth, .sixth {
+    background: radial-gradient(
+        circle at 10% 20%,
+        rgb(194, 254, 113) 0%,
+        rgb(4, 159, 108) 90.1%
+    );
 }
 
-.middle {
-    background-image: url("./img/barciczanka2.jpg");
+.first, .third, .fifth {
+    background: radial-gradient(
+        circle at 10% 20%,
+        rgb(4, 159, 108) 0%,
+        rgb(194, 254, 113) 90.1%
+    );
 }
 
-.bottom {
-    background-image: url("./img/dabrovia.jpg");
+.zawada{
+    content: url("../img/logo.png");
+    height: 150px;
+    width: 150px;
 }
+
+.helena{
+    content: url("../img/helena.png");
+    height: 120px;
+    width: 120px;
+}
+
+.mszalnica{
+    content: url("../img/mszalnica.png");
+    height: 180px;
+    width: 180px;
+}
+
+.barciczanka{
+    content: url("../img/barciczanka-logo.png");
+    height: 160px;
+    width: 160px;
+}
+
+.dabrovia{
+    content: url("../img/dabrovia-wieloglowy.png");
+    height: 140px;
+    width: 140px;
+}
+
+
+.sixth, .fifth, .fourth, .third, .second, .first{
+display: flex;
+flex-direction: row;
+
+    .zawada{
+        position: relative;
+        left: 100px;
+    }
+
+    .helena{
+        position: relative;
+        left: 400px;
+        top: 26px;
+
+    }
+
+    .mszalnica{
+        position: relative;
+        left: 370px;
+    }
+
+    .barciczanka{
+        position: relative;
+        left: 390px;
+        top: 10px;
+    }
+
+    .dabrovia{
+        position: relative;
+        left: 410px;
+        top: 15px;
+    }
+}
+
 
 .about-us-text {
     position: absolute;
