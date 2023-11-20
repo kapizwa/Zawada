@@ -45,7 +45,6 @@ body {
         rgb(4, 159, 108) 0%,
         rgb(194, 254, 113) 90.1%
     );
-    /*background-image: url("../img/logo.png");*/
     background-repeat: no-repeat;
     background-size: 100% 100%;
     z-index: 1;
@@ -82,6 +81,42 @@ main h2 {
     margin-bottom: 30px;
     text-transform: uppercase;
     text-align: center;
+}
+
+.container {
+    margin-top: 15px;
+}
+
+.td-color {
+    background: radial-gradient(
+        circle at 10% 20%,
+        rgb(194, 254, 113) 0%,
+        rgb(4, 159, 108) 90.1%
+    ) !important;
+}
+
+table {
+    margin-top: 15px;
+    border: solid rgba(51, 51, 51, 255) 3px !important;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+h3 {
+    font-size: 24px;
+    display: inline;
+}
+
+.score{
+    th{
+        font-size: 26px !important;
+    }
+}
+
+.h3-color {
+    color: green !important;
 }
 
 /* footer */

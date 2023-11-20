@@ -34,7 +34,45 @@
     <main>
 			<h2>Aktualności</h2>
 
-			<div class="about-us-box top">
+			<div class="about-us-box sixth">
+				<div class="zawada"></div>
+				<div class="helena"></div>
+				<div class="about-us-bg"></div>
+				<div class="about-us-text">
+					<h3>Wygrana z Heleną</h3>
+					<p>
+						Zespół Zawady zwyciężył przed własną publicznością 2:1 z Heleną Nowy Sącz.
+					</p>
+				</div>
+			</div>
+
+			<div class="about-us-box fifth">
+			<div class="zawada"></div>
+				<div class="helena"></div>
+				<div class="about-us-bg"></div>
+				<div class="about-us-text">
+					<h3>Spotkanie z Heleną</h3>
+					<p>
+						W dniu 29.10 o godzinie 11:00 odbędzie się mecz z Heleną Nowy Sącz.
+					</p>
+				</div>
+			</div>
+
+			<div class="about-us-box fourth">
+			<div class="zawada"></div>
+				<div class="mszalnica"></div>
+				<div class="about-us-bg"></div>
+				<div class="about-us-text">
+					<h3>Spotkanie z Mszalnicą</h3>
+					<p>
+						W dniu 22.10 o godzinie 11:00 odbędzie się mecz z LKS Mszalnica.
+					</p>
+				</div>
+			</div>
+
+			<div class="about-us-box third">
+			<div class="zawada"></div>
+				<div class="barciczanka"></div>
 				<div class="about-us-bg"></div>
 				<div class="about-us-text">
 					<h3>Remis z Barciczanką</h3>
@@ -44,7 +82,9 @@
 				</div>
 			</div>
 
-			<div class="about-us-box middle">
+			<div class="about-us-box second">
+			<div class="zawada"></div>
+				<div class="barciczanka"></div>
 				<div class="about-us-bg"></div>
 				<div class="about-us-text">
 					<h3>Spotkanie z Barciczanką</h3>
@@ -54,7 +94,9 @@
 				</div>
 			</div>
 
-			<div class="about-us-box bottom">
+			<div class="about-us-box first">
+			<div class="zawada"></div>
+				<div class="dabrovia"></div>
 				<div class="about-us-bg"></div>
 				<div class="about-us-text">
 					<h3>Porażka z Dąbrovią</h3>
