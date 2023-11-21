@@ -33,7 +33,9 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/team', [App\Http\Controllers\TeamController::class, 'index'])->name('team');
+Route::get('/stats', [App\Http\Controllers\StatsController::class, 'index'])->name('stats');
 Route::get('/table', [App\Http\Controllers\TableController::class, 'index'])->name('table');
 Route::get('/schedule', [App\Http\Controllers\ScheduleController::class, 'index'])->name('schedule');
 Route::get('/info', [App\Http\Controllers\InfoController::class, 'index'])->name('info');
 Route::get("teams/list", [TeamController::class, "index"]);
+Route::get("stats/list", [StatsController::class, "index"]);

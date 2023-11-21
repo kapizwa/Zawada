@@ -1,6 +1,6 @@
 @extends('layouts.app')
-@section('content')
 
+@section('content')
 <!DOCTYPE html>
 <html lang="pl">
 <head>
@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap" rel="stylesheet" />
     <style>
-        <?php include('../resources/css/info.css'); ?>
+        <?php include('../resources/css/stats.css'); ?>
     </style>
     <script src="https://kit.fontawesome.com/e8dac3ad42.js" crossorigin="anonymous"></script>
 </head>
@@ -33,28 +33,45 @@
         </ul>
     </nav>
     <main>
-        <div class="main-container">
-            <div class="main-box">
-             <div class="main-first">
 
-                <div class="main-logo">
-                    <div class="main-img"></div>
-                 </div>
+    <div class="container">
 
-                <div class="main-info">
-                        <p><b>Rok założenia</b>: 1946</p>
-                        <p><b>Barwy</b>: biało-zielone</p>
-                        <p><b>Adres</b>: Sportowa 12, 33-300 Nowy Sącz</p>
-                        <p><b>E-mail</b>: zawadanowysacz@gmail.com</p>
-                        <p><b>Stadion</b>: pojemność - 1 000 miejsc / oświetlenie - tak / boisko - 110 m x 74 m</p>
-                        <p><b>Prezes</b>: Kamil Wójs</p>
-                        <p><b>Trener</b>: Piotr Pietruch</p>
-                </div>
+    <table class="table">
+  <thead>
+    <tr>
+    <th scope="col">#</th>
+      <th scope="col">Imię</th>
+      <th scope="col">Nazwisko</th>
+      <th scope="col">Minuty</th>
+      <th scope="col">Bramki</th>
+      <th scope="col">Asysty</th>
+      <th scope="col">Klasyfikacja kanadyjska</th>
+      <th scope="col">Żółte kartki</th>
+      <th scope="col">Czerwone kartki</th>
+      <th scope="col">Akcje</th>
+    </tr>
+  </thead>
+  <tbody>
+    @foreach($stats as $stat)
+    <tr>
+      <th scope="row">{{ $stat->user_id }}</th>
+      <td>{{ $stat->name }}</td>
+      <td>{{ $stat->surname }}</td>
+      <td>{{ $stat->minutes }}</td>
+      <td>{{ $stat->goals }}</td>
+      <td>{{ $stat->assists }}</td>
+      <td>{{ $stat->canadian }}</td>
+      <td>{{ $stat->yellows }}</td>
+      <td>{{ $stat->reds }}</td>
+      <td>
+        </a>
+      </td>
+    </tr>
+    @endforeach
+  </tbody>
+</table>
 
-             </div>
-          </div>
-        </div>
-	</main>
+		</main>
     <footer>
         <p>
             &copy; 2023 LKS Zawada Nowy Sącz

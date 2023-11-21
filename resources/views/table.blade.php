@@ -26,6 +26,7 @@
         <ul>
 			<li class="nav-item"><a href="{{ route('home') }}">home</a></li>
             <li class="nav-item"><a href="{{ route('team') }}">zespol</a></li>
+            <li class="nav-item"><a href="{{ route('stats') }}">statystyki</a></li>
             <li class="nav-item"><a href="{{ route('table') }}">tabela</a></li>
 			<li class="nav-item"><a href="{{ route('schedule') }}">terminarz</a></li>
 			<li class="nav-item"><a href="{{ route('info') }}">info</a></li>

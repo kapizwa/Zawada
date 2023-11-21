@@ -117,31 +117,31 @@ main h2 {
 }
 
 .zawada{
-    content: url("../img/logo.png");
+    content: url("../img/logo/logo.png");
     height: 150px;
     width: 150px;
 }
 
 .helena{
-    content: url("../img/helena.png");
+    content: url("../img/logo/helena.png");
     height: 120px;
     width: 120px;
 }
 
 .mszalnica{
-    content: url("../img/mszalnica.png");
+    content: url("../img/logo/mszalnica.png");
     height: 180px;
     width: 180px;
 }
 
 .barciczanka{
-    content: url("../img/barciczanka-logo.png");
+    content: url("../img/logo/barciczanka-logo.png");
     height: 160px;
     width: 160px;
 }
 
 .dabrovia{
-    content: url("../img/dabrovia-wieloglowy.png");
+    content: url("../img/logo/dabrovia-wieloglowy.png");
     height: 140px;
     width: 140px;
 }
