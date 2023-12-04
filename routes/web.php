@@ -39,3 +39,13 @@ Route::get('/schedule', [App\Http\Controllers\ScheduleController::class, 'index'
 Route::get('/info', [App\Http\Controllers\InfoController::class, 'index'])->name('info');
 Route::get("teams/list", [TeamController::class, "index"]);
 Route::get("stats/list", [StatsController::class, "index"]);
+
+// Junior
+
+Route::get('/juniorhome', [App\Http\Controllers\JuniorHomeController::class, 'index'])->name('juniorhome');
+Route::get('/juniorteam', [App\Http\Controllers\JuniorTeamController::class, 'index'])->name('juniorteam');
+Route::get('/juniorstats', [App\Http\Controllers\JuniorStatsController::class, 'index'])->name('juniorstats');
+Route::get('/juniorschedule', [App\Http\Controllers\JuniorScheduleController::class, 'index'])->name('juniorschedule');
+Route::get('/juniortable', [App\Http\Controllers\JuniorTableController::class, 'index'])->name('juniortable');
+Route::get('/juniorinfo', [App\Http\Controllers\JuniorInfoController::class, 'index'])->name('juniorinfo');
+

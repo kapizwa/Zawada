@@ -11,13 +11,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap" rel="stylesheet" />
     <style>
-        <?php include('../resources/css/stats.css'); ?>
+        <?php include('../resources/css/junior/team.css'); ?>
     </style>
     <script src="https://kit.fontawesome.com/e8dac3ad42.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-
     <header>
         <div class="header-img">
             <div class="header-bg"></div>
@@ -25,53 +24,57 @@
     </header>
     <nav class="nav">
         <ul>
-			<li class="nav-item"><a href="{{ route('home') }}">home</a></li>
-            <li class="nav-item"><a href="{{ route('team') }}">zespol</a></li>
-            <li class="nav-item"><a href="{{ route('stats') }}">statystyki</a></li>
-            <li class="nav-item"><a href="{{ route('table') }}">tabela</a></li>
-			<li class="nav-item"><a href="{{ route('schedule') }}">terminarz</a></li>
-			<li class="nav-item"><a href="{{ route('info') }}">info</a></li>
-      <li class="nav-item"><a href="{{ route('juniorhome') }}">juniorzy</a></li>
+			<li class="nav-item"><a href="{{ route('juniorhome') }}">home</a></li>
+            <li class="nav-item"><a href="{{ route('juniorteam') }}">zespol</a></li>
+            <li class="nav-item"><a href="{{ route('juniorstats') }}">statystyki</a></li>
+            <li class="nav-item"><a href="{{ route('juniortable') }}">tabela</a></li>
+			<li class="nav-item"><a href="{{ route('juniorschedule') }}">terminarz</a></li>
+			<li class="nav-item"><a href="{{ route('juniorinfo') }}">info</a></li>
+            <li class="nav-item"><a href="{{ route('home') }}">seniorzy</a></li>
         </ul>
     </nav>
     <main>
 
     <div class="container">
+        <div class="row">
+            <div class="col-6">
+            <h1>Lista zawodników</h1>
+            </div>
 
-    <table class="table">
+</div>
+<table class="table">
   <thead>
     <tr>
     <th scope="col">#</th>
-      <th scope="col">Imię</th>
+      <th scope="col">Imie</th>
       <th scope="col">Nazwisko</th>
-      <th scope="col">Minuty</th>
-      <th scope="col">Bramki</th>
-      <th scope="col">Asysty</th>
-      <th scope="col">Klasyfikacja kanadyjska</th>
-      <th scope="col">Żółte kartki</th>
-      <th scope="col">Czerwone kartki</th>
+      <th scope="col">Data urodzenia</th>
+      <th scope="col">Wzrost</th>
+      <th scope="col">Numer</th>
+      <th scope="col">Pozycja</th>
       <th scope="col">Akcje</th>
     </tr>
   </thead>
   <tbody>
-    @foreach($stats as $stat)
+    @foreach($juniorteams as $juniorteam)
     <tr>
-      <th scope="row">{{ $stat->user_id }}</th>
-      <td>{{ $stat->name }}</td>
-      <td>{{ $stat->surname }}</td>
-      <td>{{ $stat->minutes }}</td>
-      <td>{{ $stat->goals }}</td>
-      <td>{{ $stat->assists }}</td>
-      <td>{{ $stat->canadian }}</td>
-      <td>{{ $stat->yellows }}</td>
-      <td>{{ $stat->reds }}</td>
+      <th scope="row">{{ $juniorteam->id }}</th>
+      <td>{{ $juniorteam->name }}</td>
+      <td>{{ $juniorteam->surname }}</td>
+      <td>{{ $juniorteam->birth }}</td>
+      <td>{{ $juniorteam->growth }}</td>
+      <td>{{ $juniorteam->number }}</td>
+      <td>{{ $juniorteam->position }}</td>
       <td>
+        <button class="btn btn-danger btn-sm delete">Usuń</button>
+            <button class="btn btn-success btn-sm">Edytuj</button>
         </a>
       </td>
     </tr>
     @endforeach
   </tbody>
 </table>
+</div>
 
 		</main>
     <footer>

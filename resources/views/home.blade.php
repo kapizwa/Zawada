@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+
 <!DOCTYPE html>
 <html lang="pl">
 <head>
@@ -14,9 +15,11 @@
         <?php include('../resources/css/home.css'); ?>
     </style>
     <script src="https://kit.fontawesome.com/e8dac3ad42.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
+
     <header>
         <div class="header-img">
             <div class="header-bg"></div>
@@ -30,6 +33,7 @@
             <li class="nav-item"><a href="{{ route('table') }}">tabela</a></li>
 			<li class="nav-item"><a href="{{ route('schedule') }}">terminarz</a></li>
 			<li class="nav-item"><a href="{{ route('info') }}">info</a></li>
+			<li class="nav-item"><a href="{{ route('juniorhome') }}">juniorzy</a></li>
         </ul>
     </nav>
     <main>
@@ -118,4 +122,5 @@
     </footer>
 </body>
 </html>
+
 @endsection

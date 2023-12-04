@@ -40,11 +40,12 @@ body {
 .header-img {
     position: relative;
     height: 300px;
-    background: radial-gradient(
-        circle at 10% 20%,
-        rgb(4, 159, 108) 0%,
-        rgb(194, 254, 113) 90.1%
+    background: linear-gradient(
+        243.4deg,
+        rgb(0, 215, 206) 13%,
+        rgb(0, 132, 255) 98%
     );
+
     /*background-image: url("../img/logo.png");*/
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -107,20 +108,20 @@ main h2 {
 .second,
 .fourth,
 .sixth {
-    background: radial-gradient(
-        circle at 10% 20%,
-        rgb(194, 254, 113) 0%,
-        rgb(4, 159, 108) 90.1%
+    background: linear-gradient(
+        243.4deg,
+        rgb(0, 132, 255) 13%,
+        rgb(0, 215, 206) 98%
     );
 }
 
 .first,
 .third,
 .fifth {
-    background: radial-gradient(
-        circle at 10% 20%,
-        rgb(4, 159, 108) 0%,
-        rgb(194, 254, 113) 90.1%
+    background: linear-gradient(
+        243.4deg,
+        rgb(0, 215, 206) 13%,
+        rgb(0, 132, 255) 98%
     );
 }
 
@@ -150,6 +151,18 @@ main h2 {
 
 .dabrovia {
     content: url("../img/logo/dabrovia-wieloglowy.png");
+    height: 140px;
+    width: 140px;
+}
+
+.lososina{
+    content: url("../img/logo/lososina.png");
+    height: 140px;
+    width: 140px;
+}
+
+.roznow{
+    content: url("../img/logo/roznow.png");
     height: 140px;
     width: 140px;
 }
@@ -186,6 +199,18 @@ main h2 {
     }
 
     .dabrovia {
+        position: relative;
+        left: 410px;
+        top: 15px;
+    }
+
+    .lososina{
+        position: relative;
+        left: 410px;
+        top: 15px;
+    }
+
+    .roznow{
         position: relative;
         left: 410px;
         top: 15px;

@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap" rel="stylesheet" />
     <style>
-        <?php include('../resources/css/table.css'); ?>
+        <?php include('../resources/css/junior/stats.css'); ?>
     </style>
     <script src="https://kit.fontawesome.com/e8dac3ad42.js" crossorigin="anonymous"></script>
 </head>
@@ -24,13 +24,13 @@
     </header>
     <nav class="nav">
         <ul>
-			<li class="nav-item"><a href="{{ route('home') }}">home</a></li>
-            <li class="nav-item"><a href="{{ route('team') }}">zespol</a></li>
-            <li class="nav-item"><a href="{{ route('stats') }}">statystyki</a></li>
-            <li class="nav-item"><a href="{{ route('table') }}">tabela</a></li>
-			<li class="nav-item"><a href="{{ route('schedule') }}">terminarz</a></li>
-			<li class="nav-item"><a href="{{ route('info') }}">info</a></li>
-            <li class="nav-item"><a href="{{ route('juniorhome') }}">juniorzy</a></li>
+			<li class="nav-item"><a href="{{ route('juniorhome') }}">home</a></li>
+            <li class="nav-item"><a href="{{ route('juniorteam') }}">zespol</a></li>
+            <li class="nav-item"><a href="{{ route('juniorstats') }}">statystyki</a></li>
+            <li class="nav-item"><a href="{{ route('juniortable') }}">tabela</a></li>
+			<li class="nav-item"><a href="{{ route('juniorschedule') }}">terminarz</a></li>
+			<li class="nav-item"><a href="{{ route('juniorinfo') }}">info</a></li>
+            <li class="nav-item"><a href="{{ route('home') }}">seniorzy</a></li>
         </ul>
     </nav>
     <main>

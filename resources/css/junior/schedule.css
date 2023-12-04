@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+/* nav */
+.nav {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    background-color: #333;
+    text-align: center;
+    line-height: 50px;
+}
+
+.nav-item {
+    display: inline-block;
+}
+
+.nav-item a {
+    color: grey;
+    padding: 0 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-item a:hover {
+    color: #0086f3;
+}
+
+/* header */
+.header-img {
+    position: relative;
+    height: 300px;
+    background: linear-gradient(
+        243.4deg,
+        rgb(0, 215, 206) 13%,
+        rgb(0, 132, 255) 98%
+    );
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 1;
+}
+
+.header-bg {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -0%);
+    height: 225px;
+    width: 225px;
+    content: url("../img/logo.png");
+}
+​ .header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.header-text h1 {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* main */
+main {
+    width: 100%;
+    overflow: hidden;
+}
+
+main h2 {
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.container {
+
+    margin-top: 15px;
+}
+
+.td-color {
+    background: linear-gradient(
+        243.4deg,
+        rgb(0, 215, 206) 13%,
+        rgb(0, 132, 255) 98%
+    ) !important;
+}
+
+table {
+    max-width: 1800px;
+    margin-top: 15px;
+    border: solid rgba(51, 51, 51, 255) 3px !important;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+h3 {
+    font-size: 24px;
+    display: inline;
+}
+
+.score {
+    th {
+        font-size: 26px !important;
+    }
+}
+
+.h3-color {
+    color: green !important;
+}
+
+/* footer */
+footer {
+    height: 80px;
+    line-height: 80px;
+    background-color: #333;
+    color: #ddd;
+    text-align: center;
+    font-size: 20px;
+}
+
+.icon-box {
+    margin-left: 20px;
+}
+
+.icon-box a {
+    margin: 0 5px;
+    color: #ddd;
+    font-size: 30px;
+    transition: color 0.3s;
+}
+
+.icon-box a:hover {
+    color: #0086f3;
+}
+
+/* Uslugi */
+
+.services-list {
+    margin: 0 auto;
+    width: 200px;
+}
+
+/* Cennik */
+.prices-table {
+    margin: 0 auto;
+}
+
+.prices-table td {
+    padding: 10px 30px;
+}
+
+/* Kontakt */
+.contact-info {
+    text-align: center;
+    font-size: 36px;
+}
+
+.contact-info .fas {
+    margin-right: 10px;
+}

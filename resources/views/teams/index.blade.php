@@ -30,6 +30,7 @@
             <li class="nav-item"><a href="{{ route('table') }}">tabela</a></li>
 			<li class="nav-item"><a href="{{ route('schedule') }}">terminarz</a></li>
 			<li class="nav-item"><a href="{{ route('info') }}">info</a></li>
+            <li class="nav-item"><a href="{{ route('juniorhome') }}">juniorzy</a></li>
         </ul>
     </nav>
     <main>
