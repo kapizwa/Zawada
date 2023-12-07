@@ -73,17 +73,17 @@ main h2 {
 
 .main-container {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
 }
 
- .main-box{
+.main-box {
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    max-width: 800px;
-    margin:50px 0;
+    margin: 50px 0;
 }
 
-.main-first{
+.main-first {
     display: flex;
     flex-direction: row;
     height: 250px;
@@ -91,7 +91,7 @@ main h2 {
     .main-logo {
         width: 250px;
         height: 250px;
-    
+
         .main-img {
             width: 200px;
             height: 200px;
@@ -99,20 +99,25 @@ main h2 {
             content: url("../img/logo.png");
         }
     }
-    
+
     .main-info {
         width: 550px;
         height: 250px;
         font-size: 15px;
         line-height: 22px;
-    } 
+    }
 }
 
+.second {
+    display: flex;
+    justify-content: center;
+}
 
-/* .main-maps{
-
-    border: green 2px solid;
-} */
+.maps {
+    border: 1px solid black;
+    margin: 50px 0;
+    min-width: 60%;
+}
 
 /* footer */
 footer {
