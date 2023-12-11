@@ -14,6 +14,11 @@
         <?php include('../resources/css/junior/home.css'); ?>
     </style>
     <script src="https://kit.fontawesome.com/e8dac3ad42.js" crossorigin="anonymous"></script>
+	<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 </head>
 
@@ -28,7 +33,6 @@
         <ul>
 			<li class="nav-item"><a href="{{ route('juniorhome') }}">home</a></li>
             <li class="nav-item"><a href="{{ route('juniorteam') }}">zespol</a></li>
-			<li class="nav-item"><a href="{{ route('juniorstats') }}">statystyki</a></li>
             <li class="nav-item"><a href="{{ route('juniortable') }}">tabela</a></li>
 			<li class="nav-item"><a href="{{ route('juniorschedule') }}">terminarz</a></li>
 			<li class="nav-item"><a href="{{ route('juniorinfo') }}">info</a></li>
@@ -36,6 +40,11 @@
         </ul>
     </nav>
     <main>
+
+	<div class="source">
+				<div class="left"></div>
+				<div class="blog">
+					<div class="name">
 			<h2>Aktualności</h2>
 
 			<div class="about-us-box sixth">
@@ -109,6 +118,31 @@
 					</p>
 				</div>
 			</div>
+			</div>
+		</div>
+
+		<div class="sponsor">
+		<div class="name">
+						<h2>Sponsorzy</h2>
+					</div>
+		<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="../img/sponsor/topcar.png" alt=""></div>
+    <div class="swiper-slide"><img src="../img/sponsor/noel.png" alt=""></div>
+    <div class="swiper-slide"><img src="../img/sponsor/maximus.png" alt=""></div>
+	<div class="swiper-slide"><img src="../img/sponsor/cieslak.png" alt=""></div>
+    <div class="swiper-slide"><img src="../img/sponsor/drewbud.png" alt=""></div>
+    <div class="swiper-slide"><img src="../img/sponsor/filipowicz.png" alt=""></div>
+	<div class="swiper-slide"><img src="../img/sponsor/5w.png" alt=""></div>
+    <div class="swiper-slide"><img src="../img/sponsor/pj.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="../img/sponsor/miasto.png" alt=""></div>
+  </div>
+</div>
+</div>
+	</div>
+
 		</main>
     <footer>
         <p>
@@ -119,6 +153,19 @@
             </span>
         </p>
     </footer>
+
+	<script>
+    
+	const swiper = new Swiper('.swiper', {
+  direction: 'vertical',
+  loop: true,
+  autoplay: {
+                delay: 2000,
+            },
+	slidesPerView:8,
+});
+
+</script>
 </body>
 </html>
 @endsection

@@ -49,7 +49,7 @@
                         <p><b>E-mail</b>: zawadanowysacz@gmail.com</p>
                         <p><b>Stadion</b>: pojemność - 1 000 miejsc / oświetlenie - tak / boisko - 110 m x 74 m</p>
                         <p><b>Prezes</b>: Kamil Wójs</p>
-                        <p><b>Trener</b>: Piotr Pietruch</p>
+                        <p><b>Trener</b>: Artur Aleksander</p>
                 </div>
 
              </div>

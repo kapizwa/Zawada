@@ -37,6 +37,7 @@ Route::get('/stats', [App\Http\Controllers\StatsController::class, 'index'])->na
 Route::get('/table', [App\Http\Controllers\TableController::class, 'index'])->name('table');
 Route::get('/schedule', [App\Http\Controllers\ScheduleController::class, 'index'])->name('schedule');
 Route::get('/info', [App\Http\Controllers\InfoController::class, 'index'])->name('info');
+Route::get('/wygrana-z-helena', [App\Http\Controllers\MatchController::class, 'index'])->name('match');
 Route::get("teams/list", [TeamController::class, "index"]);
 Route::get("stats/list", [StatsController::class, "index"]);
 

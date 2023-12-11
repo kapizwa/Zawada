@@ -26,7 +26,6 @@
         <ul>
 			<li class="nav-item"><a href="{{ route('juniorhome') }}">home</a></li>
             <li class="nav-item"><a href="{{ route('juniorteam') }}">zespol</a></li>
-            <li class="nav-item"><a href="{{ route('juniorstats') }}">statystyki</a></li>
             <li class="nav-item"><a href="{{ route('juniortable') }}">tabela</a></li>
 			<li class="nav-item"><a href="{{ route('juniorschedule') }}">terminarz</a></li>
 			<li class="nav-item"><a href="{{ route('juniorinfo') }}">info</a></li>

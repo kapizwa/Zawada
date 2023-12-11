@@ -94,6 +94,36 @@ footer {
     font-size: 20px;
 }
 
+.page {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.sections {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.all {
+    display: flex;
+    margin-left: 640px;
+    flex-grow: 0;
+}
+
+.away {
+    margin-right: 145px;
+}
+
+table {
+    border: 2px solid black !important;
+}
+
+p{
+    font-size: 16px;
+}
+
 .icon-box {
     margin-left: 20px;
 }

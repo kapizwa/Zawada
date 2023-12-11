@@ -60,17 +60,6 @@ body {
     content: url("../img/logo.png");
 }
 
-
-.header-text h1 {
-    margin-bottom: 10px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-
-p {
-    font-size: 16px;
-}
-
 /* main */
 main {
     width: 100%;
@@ -82,6 +71,41 @@ main h2 {
     text-align: center;
 }
 
+.page{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.news-img{
+    display: flex;
+    justify-content: center;
+}
+
+.news{
+    display: flex;
+    justify-content: center;
+}
+
+.news p{
+    font-size: 18px;
+    column-fill: auto;
+}
+
+.composition{
+    margin-bottom: 50px;
+}
+
+.composition p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.second{
+    display: flex;
+    flex-direction: row;
+}
+
 /* footer */
 footer {
     height: 80px;
@@ -90,32 +114,6 @@ footer {
     color: #ddd;
     text-align: center;
     font-size: 20px;
-}
-
-.page {
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-}
-
-.sections {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.all {
-    display: flex;
-    margin-left: 640px;
-    flex-grow: 0;
-}
-
-.away {
-    margin-right: 145px;
-}
-
-table {
-    border: 2px solid black !important;
 }
 
 .icon-box {

@@ -217,6 +217,86 @@ main h2 {
     }
 }
 
+
+.source {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    margin: 0 100px;
+}
+
+.left{
+    flex-grow: 1;
+}
+
+.blog {
+    flex-grow: 2;
+}
+
+.sponsor {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    max-width: 230px;
+    margin-bottom: 30px;
+}
+
+.swiper {
+    width: 230px;
+    height: 2100px;
+  }
+
+  .swiper-slide{
+    height: auto;
+  }
+  
+.topcar{
+    content: url("../img/sponsor/topcar.png");
+}
+
+.noel{
+    content: url("../img/sponsor/noel.png");
+}
+
+.maximus{
+    content: url("../img/sponsor/maximus.png");
+}
+
+.cieslak{
+    content: url("../img/sponsor/cieslak.png");
+}
+
+.drewbud{
+    content: url("../img/sponsor/drewbud.png");
+}
+
+.filipowicz{
+    content: url("../img/sponsor/filipowicz.png");
+}
+
+.detailing{
+    content: url("../img/sponsor/5w.png");
+}
+
+.pj{
+    content: url("../img/sponsor/pj.jpg");
+    width: 230px;
+}
+
+.miasto{
+    content: url("../img/sponsor/miasto.png");
+}
+
+.topcar, .noel, .maximus, .cieslak, .drewbud, .filipowicz, .detailing, .pj, .miasto{
+    max-width: 230px;
+    max-height: 230px;
+    margin: 10px 0;
+}
+
+
+
 .about-us-text {
     position: absolute;
     left: 50%;

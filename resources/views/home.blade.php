@@ -52,7 +52,8 @@
 						<h2>Aktualności</h2>
 					</div>
 					<div class="contents">
-				<div class="about-us-box sixth">
+
+				<a href="{{ route('match') }}" class="about-us-box sixth">
 					<div class="zawada"></div>
 					<div class="helena"></div>
 					<div class="about-us-bg"></div>
@@ -62,7 +63,7 @@
 							Zespół Zawady zwyciężył przed własną publicznością 2:1 z Heleną Nowy Sącz.
 						</p>
 					</div>
-				</div>
+</a>
 
 				<div class="about-us-box fifth">
 				<div class="zawada"></div>

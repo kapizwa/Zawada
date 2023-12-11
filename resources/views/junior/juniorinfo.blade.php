@@ -26,7 +26,6 @@
         <ul>
 			<li class="nav-item"><a href="{{ route('juniorhome') }}">home</a></li>
             <li class="nav-item"><a href="{{ route('juniorteam') }}">zespol</a></li>
-            <li class="nav-item"><a href="{{ route('juniorstats') }}">statystyki</a></li>
             <li class="nav-item"><a href="{{ route('juniortable') }}">tabela</a></li>
 			<li class="nav-item"><a href="{{ route('juniorschedule') }}">terminarz</a></li>
 			<li class="nav-item"><a href="{{ route('juniorinfo') }}">info</a></li>
@@ -49,7 +48,7 @@
                         <p><b>E-mail</b>: zawadanowysacz@gmail.com</p>
                         <p><b>Stadion</b>: pojemność - 1 000 miejsc / oświetlenie - tak / boisko - 110 m x 74 m</p>
                         <p><b>Prezes</b>: Kamil Wójs</p>
-                        <p><b>Trener</b>: Piotr Pietruch</p>
+                        <p><b>Trener</b>: Dariusz Aleksander</p>
                 </div>
 
              </div>
